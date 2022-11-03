@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'akfont';
+    src: url('fonts/akfont.html');
+    src: url('fonts/akfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/akfont-2.html') format('woff'),
+         url('fonts/akfont-3.html') format('truetype'),
+         url('fonts/akfont-4.html#akfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='akicon-']:before{
+	display: inline-block;
+   font-family: 'akfont';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.akicon-angular:before{content:'\0041';}
+.akicon-codeigniter:before{content:'\0042';}
+.akicon-flutter:before{content:'\0043';}
+.akicon-wordpress:before{content:'\0044';}
+.akicon-ionic:before{content:'\0045';}
+.akicon-firebase:before{content:'\0046';}
+.akicon-nodejs:before{content:'\0047';}
+.akicon-php:before{content:'\0048';}
+.akicon-laravel:before{content:'\0049';}
+.akicon-woocommerce:before{content:'\004a';}
+.akicon-reactjs:before{content:'\004b';}
+.akicon-android:before{content:'\004c';}
